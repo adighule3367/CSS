@@ -1,0 +1,41 @@
+section{
+    margin-top: 100px;
+}
+div{
+    height: 50px ;
+    width: 200px;
+    text-align: center;
+    background-color: #7aa874;
+    border: 2px solid black;
+    margin: 10px auto;
+}
+div:nth-of-type(2n){
+    background-color: #f7db6a;
+}
+div:nth-of-type(3n){
+    background-color: #ebb02d;
+}
+/* Transform
+   1.Rotat Property  */
+#one{
+    transform: rotate(-90deg);
+}
+/* 2.Scale property */
+#two{
+    /* transform: scale(0.5); */
+    /* transform: scale3d(2);*/
+    /* transform: scaleY(2); */
+    transform: scale(2,0.5);
+}
+/* 3.Translate Property */
+#three{
+    transform: translateX(-100px);
+}
+/* 4.Skew Property */
+#four{
+    transform: skew(-30deg);
+}
+/* Mixup of all properties on div five. */
+#five{
+    transform: translate(190px) scale(1.5) rotate(-30deg) skew(30deg);
+}
